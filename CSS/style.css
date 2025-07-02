@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #212529;
+}
+
+.header {
+  z-index: 100;
+  margin-top: -24px;
+}
+.btn-search {
+  border-radius: 6px;
+}
+
+.menu-bar > li > a {
+  transition: 0.4s ease-in-out;
+}
+.menu-bar > li > a:hover {
+  background-color: #3e4449;
+  border-radius: 5px;
+}
+
+.welcomec {
+  top: 50px;
+  height: 40rem;
+  z-index: 0;
+}
+.welcomec > div > div > ul > li > h3 {
+  font-size: 60px;
+}
+.welcomec > div > div > ul > li > h1 {
+  font-size: 50px;
+  font-weight: bold;
+  left: 10px;
+  width: 600px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(90) infinite alternate-reverse;
+  padding: 20px 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.welcomec > div > nav > a {
+  position: relative;
+  top: 180px;
+  margin: 0;
+  left: 90px;
+  padding: 1px 30px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+  background-color: #0dcaf0;
+}
+.welcomec > div > nav > a:hover {
+  scale: 1.1;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.welcomec > div > .picture > div {
+  margin-top: 50px;
+  margin-left: -240px;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+}
+.welcomec > div > .picture > .asus > img {
+  width: 100%;
+  height: 100%;
+}
+.welcomec > div > .picture > .macbook {
+  margin-top: 50px;
+  margin-left: 130px;
+  width: 500px;
+  height: 500px;
+}
+.welcomec > div > .picture > .macbook > img {
+  width: 100%;
+  height: 100%;
+}
+
+.picture > div {
+  width: 430px;
+  margin-left: 475px;
+  animation: upDown 4s ease-in-out infinite alternate;
+}
+@keyframes upDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
+
+.welcomec > div > nav > a {
+  animation: leftright 4s ease-in-out infinite alternate;
+}
+@keyframes leftright {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-30px);
+  }
+}
+
+.explore {
+  margin-top: 90px;
+  height: 200px;
+}
+
+.ex-content {
+  padding: 0 80px;
+}
+
+.box-image {
+  width: 200px;
+  height: 200px;
+}
+.box-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.new > div > .card {
+  width: 350px;
+}
+
+.box-card {
+  width: 400px;
+  height: 620px;
+  border-radius: 2px;
+}
+.box-image2 {
+  position: relative;
+  width: 380px;
+  height: 250px;
+  top: 9px;
+  background-color: #dbdbdbe9;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin-left: 10px;
+}
+.box-image2 > img {
+  width: 100%;
+  height: 100%;
+}
+.box-card > span > ul > li {
+  list-style-type: disc;
+}
+.btn {
+  margin-top: -10px;
+}
+.btn > p {
+  background-color: greenyellow;
+  padding: 0 30px;
+  border-radius: 2px;
+  margin-left: -10px;
+}
+
+.btn > a {
+  transition: 0.5s ease-in-out;
+}
+
+.btn > a:hover {
+  color: red;
+}
+
+.delllaptop > img {
+  width: 110%;
+  height: 140%;
+  margin-top: -40px;
+  margin-left: -20px;
+}
+
+.box-card > span > ul {
+  height: 17rem;
+}
+
+.lenovolaptop > img {
+  width: 100%;
+  height: 128%;
+  margin-top: -35px;
+}
+
+.discount {
+  z-index: 100;
+  background-color: #d12323;
+  padding: 5px 5px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.lenovoThinkPad > img {
+  height: 100%;
+  width: 90%;
+  margin-left: 18px;
+}
+
+.rogzyprus > img {
+  width: 85%;
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    JS
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div
+      class="container-fluid bg-dark p-2 border-bottom position-fixed header"
+    >
+      <div
+        class="container-lg d-flex justify-content-between align-items-center"
+      >
+        <!-- logo webpage -->
+        <header class="text-light fw-bold fs-5">COMPUTER STORE</header>
+        <main>
+          <input type="search" placeholder="Search" class="btn-search" />
+        </main>
+        <div class="align-items-center">
+          <!-- Menu bar -->
+          <ul class="d-flex gap-5 m-1 menu-bar align-items-center">
+            <li>
+              <a href="#home" class="text-decoration-none text-light fs-5 p-2"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#new" class="text-decoration-none text-light fs-5 p-2"
+                >New</a
+              >
+            </li>
+            <li>
+              <a
+                href="#discount"
+                class="text-decoration-none text-light fs-5 p-2"
+                >Discount</a
+              >
+            </li>
+            <li>
+              <a
+                href="#product"
+                class="text-decoration-none text-light fs-5 p-2"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#accessory"
+                class="text-decoration-none text-light fs-5 p-2"
+                >Accessory</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- body -->
+    <div class="welcomec container-fluid d-flex align-items-center" id="home">
+      <div class="row container-lg d-flex z-0">
+        <div class="col-8">
+          <ul>
+            <li><h3 class="text-light fw-bolder">Hello Welcome!</h3></li>
+            <li>
+              <h1 class="text-info position-relative">How can I help you?</h1>
+            </li>
+            <li>
+              <p class="text-light fs-4">
+                Check out more website to know about your need!!
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 text-light picture">
+          <div class="macbook position-absolute top-0">
+            <img src="/IMAGE/macbook.png" alt="apple" />
+          </div>
+          <div class="asus position-absolute top-0">
+            <img src="/IMAGE/asus.png" alt="Asus" />
+          </div>
+        </div>
+        <nav class="text-decoration-none d-flex justify-content-center">
+          <a href="#explore" class="text-decoration-none text-light fs-6"
+            >Check Up</a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <div class="container-fluid explore d-flex align-items-center" id="explore">
+      <div
+        class="container-fluid ex-content d-flex bg-light align-items-center justify-content-lg-around"
+      >
+        <div class="box-image" data-aos="fade-up" data-aos-duration="2000">
+          <img src="/IMAGE/acer.png" alt="acerlogo" />
+        </div>
+        <div class="box-image" data-aos="fade-up" data-aos-duration="1900">
+          <img src="/IMAGE/apple.png" alt="apple" />
+        </div>
+        <div class="box-image" data-aos="fade-up" data-aos-duration="1800">
+          <img src="/IMAGE/asuslogo.png" alt="asuslogo" />
+        </div>
+        <div class="box-image" data-aos="fade-up" data-aos-duration="1700">
+          <img src="/IMAGE/lenovo.png" alt="lenovologo" />
+        </div>
+        <div class="box-image" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/IMAGE/msi.png" alt="msilogo" />
+        </div>
+        <div class="box-image" data-aos="fade-up" data-aos-duration="1500">
+          <img src="/IMAGE/dell.png" alt="delllogo" />
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="new container-fluid p-5" id="new">
+      <h1 class="text-light d-flex justify-content-center fw-bold">New</h1>
+      <div
+        class="container-fluid d-flex gap-2 mt-5 flex-wrap justify-content-evenly"
+      >
+        <!-- Product1 -->
+        <div
+          class="box-card bg-light"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="box-image2">
+            <img src="/IMAGE/asusproart.png" alt="asusproart" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ASUS ProArt P16 OLED</h4>
+            <ul>
+              <li>CPU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 2TB NVME PCIE GEN4</li>
+              <li>Display : 16" inch 4K+OLED 60Hz TOUCH 100% DCI-P3 Colors</li>
+              <li>VGA: NVIDIA GEFORCE RTX 4070 8GB GDDR6</li>
+              <li>OS Window 11</li>
+              <li>Laptop is Original Box Company 2Y warranty</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">$2699</p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div
+          class="box-card bg-light"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="box-image2 delllaptop">
+            <img src="/IMAGE/dellalienware.png" alt="dellalienware" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">Dell Alienware M15</h4>
+            <ul>
+              <li>CPU : AMD R7 5800HX (8c 20MB T 4.4Hz)</li>
+              <li>RAM : 32GB DDR4 (16GBx2) Original</li>
+              <li>SDD : 1TB PCIE M2 SSD Original</li>
+              <li>Screen : 15.6"qHD (2560x1440),</li>
+              <li>Refresh Rate 360Hz 1ms</li>
+              <li>VGA 2 : NVIDIA RTX 30708GB</li>
+              <li>Laptop is Original Box Company​​</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">$2699</p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product3 -->
+        <div
+          class="box-card bg-light"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="box-image2">
+            <img src="/IMAGE/ausrogstrix.png" alt="ausrogscar" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG SCAR G634JZR 2024</h4>
+            <ul>
+              <li>CPU : Intel Core i9 14980HX UP TO 5.4GHz 24c/32t 5.9Ghz</li>
+              <li>RAM : 32GB DDR5</li>
+              <li>SDD : PCIE 1.5TB</li>
+              <li>Screen : 16.0 "QHD +IPS ROG NEBULA</li>
+              <li>Refresh Rate 240Hz DCIP3 100%</li>
+              <li>VGA 2 : NVIDIA RTX 4080 12GB</li>
+              <li>
+                RGB PER KEY Lighting/ KeyBoard Laptop is Original Box
+                Company​​​​ +2Years Warranty​
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">$2699</p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="box-image2">
+            <img src="/IMAGE/msiv.png" alt="msiv" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">MSI Vector 16 HX AI A2WXHG</h4>
+            <ul>
+              <li>CPU : Intel® Core™ ULTRA 7 255HX ​​</li>
+              <li>RAM : 16GB DDR5 Original</li>
+              <li>SDD : NVME PCIE 512GB Gen4 Original</li>
+              <li>Screen :16" 16:10 QHD+</li>
+              <li>Refresh Rate 240Hz</li>
+              <li>VGA : NVIDIA RTX 5070-GDDR7 12GB</li>
+              <li>24-zone RGB Gaming Keyboard</li>
+              <li>OS win 11 License Laptop is Original Box Company</li>
+              <li>Laptop is Original Box Company​​​​ +2Years Warranty</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">$1999</p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- product5 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="box-image2 lenovolaptop">
+            <img src="/IMAGE/LenovoLegionPro5.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">Lenovo LegionPro5 16IRX9</h4>
+            <ul>
+              <li>Processor: Intel Core i9-14900HX</li>
+              <li>Memory (RAM): 32GB (16GB + 16GB) DDR5 5600 SODIMM</li>
+              <li>Storage: 1TB SSD M.2 2280 G4</li>
+              <li>Display: 16” WQXGA, 240Hz, Non-Touch</li>
+              <li>Operating System: Windows 11Home</li>
+              <li>Graphics Card: NVIDIA RTX 4070 8GB</li>
+              <li>Color: Onyx Grey</li>
+              <li>Laptop is Original Box Company​​​​ +2Years Warranty​</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">$1999</p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="box-image2 lenovolaptop">
+            <img src="/IMAGE/MACBOOKPRO.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">
+              MACBOOK PRO 16.2"INCH/M3 MAX/36GB/1TB
+            </h4>
+            <ul>
+              <li>CPU: M3 Chip 8c CPU & 10c GPU</li>
+
+              <li>Display: 14.2"inch liquid retina XDR</li>
+              <li>Storage: 1TB</li>
+              <li>Ram: 8GB</li>
+              <li>1 Year Warranty</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">$1489</p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!--  -->
+      </div>
+    </div>
+
+    <!-- Discount Page -->
+    <div id="discount" class="container-fluid discountpage">
+      <h1 class="text-light d-flex fw-bold">🔥Extra Up to 50% Off - Go!</h1>
+      <h6
+        class="text-light fs-1 container-fluid d-flex justify-content-center border-bottom"
+      >
+        Laptop
+      </h6>
+      <div class="p-4 d-flex justify-content-evenly flex-wrap">
+        <!-- Product1 -->
+        <div
+          class="box-card bg-light"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div class="box-image2">
+            <img src="/IMAGE/austuf.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ASUS TUF FA506NCR 2024</h4>
+            <ul>
+              <li>CPU : AMD RYZEN 7 7535HS (8/16T UP TO 4.7GHZ)</li>
+              <li>RAM : 8GB DDR5 4800MHZ</li>
+              <li>SDD : 512GB M.2 PCIE</li>
+              <li>Screen : 15.6"FHD 144HZ IPS LEVEL</li>
+              <li>Refresh Rate 144Hz</li>
+              <li>VGA : NVIDIA RTX 3050 4GB GDDR6</li>
+              <li>
+                RGB Lighting/ Keyboard Laptop is Original Box Company​​​​
+                +2Years Warranty
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $749
+              <del class="text-decoration-line-through text-danger">$899</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product2 -->
+
+        <div
+          class="box-card bg-light"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div class="box-image2 lenovoThinkPad">
+            <img src="/IMAGE/lenovoThinkPad.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">Lenovo ThinkPad E16 Gen 1</h4>
+            <ul>
+              <li>CPU: intel Core i7-1355U</li>
+              <li>Ram: 16GB</li>
+              <li>Storage: 1TB SSD M.2</li>
+              <li>Graphics: Intel Iris Xe Graphics</li>
+              <li>Display: 16"inch FHD</li>
+              <li>OS: Win11 Pro</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $839
+              <del class="text-decoration-line-through text-danger">$899</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product3 -->
+        <div
+          class="box-card bg-light"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product4 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/ROGSTIRXSCAR16 .png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+        <!-- Product7 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div
+          class="box-card bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <ul>
+              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
+              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
+              <li>Storage : M.2 1TB NVME PCIE</li>
+              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
+              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
+              <li>OS Window 11</li>
+              <li>
+                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $3199
+              <del class="text-decoration-line-through text-danger">$3299</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  AOS.init();
+</script>
