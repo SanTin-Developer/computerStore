@@ -19,10 +19,15 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     JS
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <link href="dist/output.css" rel="stylesheet" /> -->
   </head>
   <body>
     <div
       class="container-fluid bg-dark p-2 border-bottom position-fixed header"
+      data-aos="zoom-in"
     >
       <div
         class="container-lg d-flex justify-content-between align-items-center"
@@ -63,7 +68,14 @@
               <a
                 href="#accessory"
                 class="text-decoration-none text-light fs-5 p-2"
-                >Accessory</a
+                >Accessories</a
+              >
+            </li>
+            <li>
+              <a
+                href="#hardware"
+                class="text-decoration-none text-light fs-5 p-2"
+                >Hardware</a
               >
             </li>
           </ul>
@@ -74,7 +86,7 @@
     <!-- body -->
     <div class="welcomec container-fluid d-flex align-items-center" id="home">
       <div class="row container-lg d-flex z-0">
-        <div class="col-8">
+        <div class="col-8 mt-5" data-aos="fade-right">
           <ul>
             <li><h3 class="text-light fw-bolder">Hello Welcome!</h3></li>
             <li>
@@ -87,8 +99,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-4 text-light picture">
-          <div class="macbook position-absolute top-0">
+        <div class="col-4 text-light picture" data-aos="fade-left">
+          <div class="macbook position-absolute top-10">
             <img src="/IMAGE/macbook.png" alt="apple" />
           </div>
           <div class="asus position-absolute top-0">
@@ -96,8 +108,10 @@
           </div>
         </div>
         <nav class="text-decoration-none d-flex justify-content-center">
-          <a href="#explore" class="text-decoration-none text-light fs-6"
-            >Check Up</a
+          <a
+            href="#explore"
+            class="text-decoration-none text-light bg-dark border-light fs-6"
+            >Let's Started</a
           >
         </nav>
       </div>
@@ -467,23 +481,22 @@
             <img src="/IMAGE/ROGSTIRXSCAR16 .png" alt="LenovoLegionPro5" />
           </div>
           <span>
-            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <h4 class="fs-6 m-3 fw-bold">ROG STIRX SCAR 16 G635LX 2025</h4>
             <ul>
-              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
-              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
-              <li>Storage : M.2 1TB NVME PCIE</li>
-              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
-              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
-              <li>OS Window 11</li>
-              <li>
-                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
-              </li>
+              <li>CPU : Intel Core Ultra 9 275HX 24C/5.4G/ Ai</li>
+              <li>RAM : 64GB LPDDR5X ORIGINAL</li>
+              <li>M.2 : PCIE 2TB NVIME ORIGINAL</li>
+              <li>Screen : 16 "QHD MiniLED DCIP3 100%</li>
+              <li>Refresh Rate 240Hz Super HDR</li>
+              <li>VGA : NVIDIA RTX 5090 24GB GDDR7</li>
+              <li>RGB Lighting/ KeyBoard</li>
+              <li>Laptop is Original Box Company​​​​ +2Years Warranty</li>
             </ul>
           </span>
           <div class="btn d-flex justify-content-lg-between">
             <p class="text-lowercase">
-              $3199
-              <del class="text-decoration-line-through text-danger">$3299</del>
+              $4099
+              <del class="text-decoration-line-through text-danger">$4499</del>
             </p>
             <a href="" class="text-decoration-none">Shop Now</a>
           </div>
@@ -499,20 +512,19 @@
           <div
             class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
           >
-            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+            <img src="/IMAGE/ROGG.png" alt="LenovoLegionPro5" />
           </div>
           <span>
-            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <h4 class="fs-6 m-3 fw-bold">ROG G615JHR-2025</h4>
             <ul>
-              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
-              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
-              <li>Storage : M.2 1TB NVME PCIE</li>
-              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
-              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
-              <li>OS Window 11</li>
-              <li>
-                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
-              </li>
+              <li>CPU : Intel Core i7 14650HX 16C/24T-5.2GHZ</li>
+              <li>RAM : 16GB DDR5 ORIGINAL</li>
+              <li>M.2 : PCIE 1TB NVIME ORIGINAL</li>
+              <li>Screen : 18 "QHD 2K MiniLED DCIP3 100%</li>
+              <li>Refresh Rate 240Hz Super HDR</li>
+              <li>VGA : NVIDIA RTX 5050 8GB GDDR7</li>
+              <li>RGB Lighting/ KeyBoard /PERKEY-RGB</li>
+              <li>Laptop is Original Box Company​​​​ +2Years Warranty</li>
             </ul>
           </span>
           <div class="btn d-flex justify-content-lg-between">
@@ -531,28 +543,31 @@
         >
           <nav class="position-absolute discount text-light">PROMOTION</nav>
           <div
-            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+            class="box-image2 raid d-flex justify-content-center align-items-center"
           >
-            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+            <img src="/IMAGE/Raider18.png" alt="LenovoLegionPro5" />
           </div>
           <span>
-            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <h4 class="fs-6 m-3 fw-bold">Raider 18 HX AI A2XWIG 2025</h4>
             <ul>
-              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
-              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
-              <li>Storage : M.2 1TB NVME PCIE</li>
-              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
-              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
-              <li>OS Window 11</li>
+              <li>CPU : Intel® Core™ ULTRA 9 275HX</li>
+              <li>RAM : 32GB 16*2 DDR5 Original</li>
+              <li>M.2 : PCIE 2TB Gen5 + 2TB Gen4</li>
+              <li>Screen :18" 16:10 UHD+</li>
+              <li>Refresh Rate 120Hz</li>
+              <li>VGA : NVIDIA RTX 5080-GDDR7 16GB</li>
+              <li>per-key RGB Gaming Keyboard</li>
+              <li>OS win 11 License</li>
               <li>
-                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
+                Laptop is Original Box Company​​ Laptop is Original Box
+                Company​​​​ +2Years Warranty
               </li>
             </ul>
           </span>
           <div class="btn d-flex justify-content-lg-between">
             <p class="text-lowercase">
-              $3199
-              <del class="text-decoration-line-through text-danger">$3299</del>
+              $3699
+              <del class="text-decoration-line-through text-danger">$4499</del>
             </p>
             <a href="" class="text-decoration-none">Shop Now</a>
           </div>
@@ -568,20 +583,19 @@
           <div
             class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
           >
-            <img src="/IMAGE/rogzyprus.png" alt="LenovoLegionPro5" />
+            <img src="/IMAGE/MacBook Pro 13.3'.png" alt="LenovoLegionPro5" />
           </div>
           <span>
-            <h4 class="fs-6 m-3 fw-bold">ROG ZEPHYRUS G14 GA403WW 2025</h4>
+            <h4 class="fs-6 m-3 fw-bold">
+              MacBook Pro 13.3'' Apple M2 Chip 8GB/512GB
+            </h4>
             <ul>
-              <li>PU : AMD RYZEN AI 9 HX370 NPU AI BOOST</li>
-              <li>RAM : 32GB DDR5 LPDDR5X FASTER</li>
-              <li>Storage : M.2 1TB NVME PCIE</li>
-              <li>Display : 14inch 3K QHD+ OLED 120Hz IPS-LEVEL</li>
-              <li>VGA: NVIDIA GEFORCE RTX 5080 16GB GDDR7</li>
-              <li>OS Window 11</li>
-              <li>
-                Laptop is Original Box Company 2Years Warranty​ + 1Y Perfect
-              </li>
+              <li>Touch Bar and Touch ID</li>
+              <li>Apple M2 Chip</li>
+              <li>8Core CPU & 10Core GPU</li>
+              <li>8GB Unified Ram</li>
+              <li>512GB SSD PCIe</li>
+              <li>Display 13.3 Retina True Tone 1years warranty</li>
             </ul>
           </span>
           <div class="btn d-flex justify-content-lg-between">
@@ -627,7 +641,264 @@
             <a href="" class="text-decoration-none">Shop Now</a>
           </div>
         </div>
+
+        <!--  -->
+        <h6
+          class="text-light fs-1 container-fluid d-flex justify-content-center border-bottom mt-5"
+        >
+          HARDWARE
+        </h6>
+
+        <!-- Product10 -->
+        <div
+          class="box-card3 bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/amdryzen7.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">AMD Ryzen™ 7 9800X3D</h4>
+            <ul>
+              <li class="">
+                AMD Ryzen™ 7 9800X3D 5.0GHZ 8C | <br />16T 5.2GHZ <br />
+                New Tray Warranty: 2 Year
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $549
+              <del class="text-decoration-line-through text-danger">$599</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 11 -->
+        <div
+          class="box-card3 bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/intelcoreultra9.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">Intel® Core™ Ultra 9 285K</h4>
+            <ul>
+              <li class="">Specifications ; Total Cores. 24 ; #</li>
+              <li>of Performance-cores. 8 ; # of Efficient-cores.</li>
+              <li>16 Total Threads. 24 ; Max Turbo Frequency. 5.7 GHz.</li>
+              <li>2 Years Warranty NEW Tray</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $589
+              <del class="text-decoration-line-through text-danger">$729</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- product 12 -->
+        <div
+          class="box-card3 bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/intelcoreultra7.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">Intel® Core™ Ultra 7 265K</h4>
+            <ul>
+              <li>
+                Specifications ; Total Cores 20 ; # of Performance-cores 8 # of
+                Efficient-
+              </li>
+              <li>cores 12 ;</li>
+              <li>Total Threads 20 ; Max Turbo Frequency 5.5 GHz</li>
+              <li>1 Years Warranty NEW Tray</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $349
+              <del class="text-decoration-line-through text-danger"> $489</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 13 -->
+        <div
+          class="box-card3 bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/intelcoreultra5.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">Intel® Core™ Ultra 5 245K</h4>
+            <ul>
+              <li>
+                Specifications · Total Cores 14 · # of Performance-cores 6 ·
+              </li>
+              <li>
+                # of Efficient-cores 8 · Total Threads 14 · Max Turbo Frequency
+                5.2 GHz
+              </li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $365
+              <del class="text-decoration-line-through text-danger"> $399</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 14 -->
+        <div
+          class="box-card3 bg-light mt-5 i9"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/intelcorei9.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">
+              Intel® Core™ i9-13900K 13TH GEN LGA 1700
+            </h4>
+            <ul>
+              <li>36M Cache, up to 5.8 GHz 24Core 32thread</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $465
+              <del class="text-decoration-line-through text-danger"> $595</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 15 -->
+
+        <div
+          class="box-card3 bg-light mt-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/amdryzen9.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">AMD Ryzen™ 9 7950X 3D</h4>
+            <ul>
+              <li>AMD RYZEN 9 9950X 5.7GHZ 16C | 32T *CPU</li>
+              <li>Warranty : 1 years</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $599
+              <del class="text-decoration-line-through text-danger"> $699</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 16 -->
+        <div
+          class="box-card3 bg-light mt-5 i9"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/intelcorei5.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">
+              Intel® Core™ i5-11400F 11TH GEN LGA1200
+            </h4>
+            <ul>
+              <li>12M Cache, up to 4.5 GHz 6Core 12threads</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $599
+              <del class="text-decoration-line-through text-danger"> $699</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <!-- Product 17 -->
+        <div
+          class="box-card3 bg-light mt-5 i9"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <nav class="position-absolute discount text-light">PROMOTION</nav>
+          <div
+            class="box-image2 rogzyprus d-flex justify-content-center align-items-center"
+          >
+            <img src="/hareware image/intelcorei914.png" alt="cpu" />
+          </div>
+          <span>
+            <h4 class="fs-6 m-3 fw-bold">
+              Intel® Core™ i9 14900K -T- Socket LGA 1700
+            </h4>
+            <ul>
+              <li>36M Cache, up to 6.00 GHz | 24Cores 32Threads New</li>
+              <li>1 Year Warranty</li>
+            </ul>
+          </span>
+          <div class="btn d-flex justify-content-lg-between">
+            <p class="text-lowercase">
+              $599
+              <del class="text-decoration-line-through text-danger"> $699</del>
+            </p>
+            <a href="" class="text-decoration-none">Shop Now</a>
+          </div>
+        </div>
+
+        <h6
+          class="text-light fs-1 container-fluid d-flex justify-content-center border-bottom mt-5"
+        >
+          ACCESSORIES
+        </h6>
       </div>
+      <!--  -->
     </div>
   </body>
 </html>

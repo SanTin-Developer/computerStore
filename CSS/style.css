@@ -58,10 +58,10 @@ body {
   margin: 0;
   left: 90px;
   padding: 1px 30px;
-  border-radius: 8px;
+  border-radius: 3px;
   font-weight: 500;
   transition: 0.4s ease-in-out;
-  background-color: #0dcaf0;
+  border: 1px solid white;
 }
 .welcomec > div > nav > a:hover {
   scale: 1.1;
@@ -70,7 +70,7 @@ body {
 }
 
 .welcomec > div > .picture > div {
-  margin-top: 50px;
+  margin-top: -46px;
   margin-left: -240px;
   width: 500px;
   height: 500px;
@@ -81,7 +81,7 @@ body {
   height: 100%;
 }
 .welcomec > div > .picture > .macbook {
-  margin-top: 50px;
+  margin-top: -46px;
   margin-left: 130px;
   width: 500px;
   height: 500px;
@@ -212,4 +212,30 @@ body {
 
 .rogzyprus > img {
   width: 85%;
+}
+
+.raid > img {
+  width: 70%;
+  height: 90%;
+}
+
+.box-card3 {
+  width: 300px;
+  height: 480px;
+  border-radius: 3px;
+}
+.box-card3 > .box-image2 {
+  width: 280px;
+  height: 200px;
+  margin-left: 10px;
+}
+.box-card3 > .box-image2 > img {
+  width: 80%;
+  height: 90%;
+}
+.box-card3 > span > ul {
+  height: 11.5rem;
+}
+.i9 > .btn {
+  margin-top: -29px;
 }
