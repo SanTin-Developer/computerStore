@@ -58,10 +58,10 @@ body {
   margin: 0;
   left: 90px;
   padding: 1px 30px;
-  border-radius: 8px;
+  border-radius: 3px;
   font-weight: 500;
   transition: 0.4s ease-in-out;
-  background-color: #0dcaf0;
+  border: 1px solid white;
 }
 .welcomec > div > nav > a:hover {
   scale: 1.1;
@@ -70,7 +70,7 @@ body {
 }
 
 .welcomec > div > .picture > div {
-  margin-top: 50px;
+  margin-top: -46px;
   margin-left: -240px;
   width: 500px;
   height: 500px;
@@ -81,7 +81,7 @@ body {
   height: 100%;
 }
 .welcomec > div > .picture > .macbook {
-  margin-top: 50px;
+  margin-top: -46px;
   margin-left: 130px;
   width: 500px;
   height: 500px;
@@ -130,7 +130,7 @@ body {
   width: 200px;
   height: 200px;
 }
-.box-image > img {
+.box-image > a > img {
   width: 100%;
   height: 100%;
 }
@@ -212,4 +212,109 @@ body {
 
 .rogzyprus > img {
   width: 85%;
+}
+
+.raid > img {
+  width: 70%;
+  height: 90%;
+}
+
+.box-card3 {
+  width: 300px;
+  height: 480px;
+  border-radius: 3px;
+}
+.box-card3 > .box-image2 {
+  width: 280px;
+  height: 200px;
+  margin-left: 10px;
+}
+.box-card3 > .box-image2 > img {
+  width: 80%;
+  height: 90%;
+}
+.box-card3 > span > ul {
+  height: 11.5rem;
+}
+.i9 > .btn {
+  margin-top: -29px;
+}
+
+.monitor > .box-image2 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.monitor > span > ul > li {
+  list-style-type: disc;
+}
+
+.monitor > .box-image2 > .asusrogmonitor {
+  height: 70%;
+  width: 100%;
+}
+
+.myproduct > div > .asusCard > nav > div {
+  width: 350px;
+  height: 200px;
+}
+
+.asusCard {
+  background-color: #898a8b;
+  height: 820px;
+  border-radius: 5px 5px 0 0;
+}
+
+.myproduct > div > .asusCard > nav > div > img {
+  width: 100%;
+  height: 100%;
+  margin-top: -40px;
+  padding: 10px;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  font-size: 18px;
+  background: #ffff;
+  display: flex;
+  border-radius: 3px;
+}
+
+.mySwiper {
+  position: relative;
+  margin-top: -100px;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+swiper-container {
+  width: 100%;
+  height: 700px;
+  margin: 20px auto;
+}
+
+.slider > div > span {
+}
+
+.slider > div > span > nav {
+  background-color: greenyellow;
+  width: 100px;
+  padding: 1px 10px;
+  border-radius: 3px;
+  position: relative;
+  left: 10px;
+}
+
+.list-of-item > li {
+  list-style-type: disc;
+  font-size: 15px;
 }
