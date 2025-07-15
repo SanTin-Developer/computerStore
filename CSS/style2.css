@@ -1,0 +1,71 @@
+.myproduct {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+nav > div > img {
+  width: 100%;
+  height: 100%;
+  margin-top: -40px;
+  padding: 10px;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-top: -10px;
+}
+swiper-container > swiper-slide {
+  z-index: 100;
+  font-size: 18px;
+  background: #ffff;
+  display: flex;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+  padding: 10px 0;
+}
+.mySwiper {
+  position: relative;
+  margin-top: -100px;
+}
+
+.myproduct > div > div > swiper-container > swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.slider > div > span > nav {
+  background-color: greenyellow;
+  width: 100px;
+  padding: 1px 10px;
+  border-radius: 3px;
+  position: relative;
+  left: 10px;
+}
+
+.asusCard > .mySwiper > swiper-slide > div {
+  height: 70px;
+}
+
+.asusoled {
+  height: 70px;
+}
+.asusoled > div > img {
+  position: relative;
+  margin-top: -50px;
+}
+.list-of-item > li {
+  list-style-type: disc;
+  font-size: 15px;
+}
+
+.zenbook > span > ul {
+  height: 325px;
+}
